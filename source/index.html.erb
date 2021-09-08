@@ -1,7 +1,30 @@
-<div class="container mt-3">
-  <div class="row justify-content-center">
-    <div class="col">
-      <h1>Middleman Boilerplate</h1>
-    </div>
-  </div>
-</div>
+<header class="sticky">
+  <%= image_tag 'cheri2.JPG', alt: 'picture of cheri', class: 'banner' %>
+  <a href="#" class="logo">Cheri.</a>
+  <div class="toggle active"></div>
+  <nav class="active">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<section>
+  <h2>A Kiwi Dev in Japan</h2>
+  <p>Lovin' and livin' life as a developer in Japan.</p>
+</section>
+<script type="text/javascript">
+  window.addEventListener("scroll", function() {
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  });
+  
+  const navigation = document.querySelector('nav');
+  document.querySelector('.toggle').onclick = function()
+  {
+    this.classList.toggle('active');
+    navigation.classList.toggle('active');
+  }
+</script>
