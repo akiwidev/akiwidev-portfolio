@@ -2,14 +2,16 @@
   <section id="contact">
     <h2 class="mb-4">Get in touch! 📲</h2>
     <p>Feel free to reach out to me on any of the following platforms:</p>
-    <% link_to 'https://github.com/akiwidev', target: '_blank' do %>
-      <i class="fab fa-github-square"></i>
-    <% end %>
-    <% link_to 'https://www.linkedin.com/in/akiwidev', target: '_blank' do %>
-      <i class="fab fa-linkedin"></i>
-    <% end %>
-    <% link_to 'mailto:akiwidev@gmail.com', target: '_blank' do %>
-      <i class="fas fa-envelope-square"></i>
-    <% end %>
+    <div class="d-flex justify-content-around">
+      <% link_to 'https://github.com/akiwidev', target: '_blank', class: 'contact-icon' do %>
+        <i class="fab fa-github-square"></i>
+      <% end %>
+      <% link_to 'https://www.linkedin.com/in/akiwidev', target: '_blank', class: 'contact-icon' do %>
+        <i class="fab fa-linkedin"></i>
+      <% end %>
+      <% link_to 'mailto:akiwidev@gmail.com', target: '_blank', class: 'contact-icon' do %>
+        <i class="fas fa-envelope-square"></i>
+      <% end %>
+    </div>
   </section>
 </div>
