@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Arima Madurai', cursive;
 }
 header
 {
@@ -22,6 +21,7 @@ header
 	justify-content: flex-end;
 	align-items: center;
   z-index: 1000;
+  font-family: 'Arima Madurai', cursive;
 }
 header.sticky
 {
