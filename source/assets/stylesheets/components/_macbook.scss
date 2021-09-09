@@ -159,3 +159,27 @@ $device-rosegold-panel: #0d0d0d;
     }
   }
 }
+.device {
+  position: relative;
+  transform: scale(1);
+  transform-origin: 50% 0%;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+  .device {
+    transform: scale(0.4);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .device {
+    transform: scale(0.3);
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .device {
+    transform: scale(0.2);
+  }
+}
