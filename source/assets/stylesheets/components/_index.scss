@@ -1,4 +1,6 @@
 // Import your components CSS files here.
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
 @import "alert";
 @import "avatar";
 @import "navbar";
@@ -7,3 +9,14 @@
 @import "macbook";
 @import "contact-icon";
 @import "footer";
+
+h2 {
+  font-family: 'Arima Madurai', cursive;
+}
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+}
