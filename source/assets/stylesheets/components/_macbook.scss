@@ -13,8 +13,8 @@ $device-rosegold-dark: darken($device-rosegold, 10%);
 $device-rosegold-panel: #0d0d0d;
 
 .device-macbook {
-  height: 432px;
-  width: 740px;
+  height: 265px;
+  width: 333px;
 
   .device-frame {
     background: $device-silver-panel;
@@ -68,7 +68,7 @@ $device-rosegold-panel: #0d0d0d;
     height: 4px;
     margin-top: -10px;
     position: relative;
-    width: 740px;
+    width: 611px;
     z-index: 9;
 
     &::after,
@@ -90,7 +90,7 @@ $device-rosegold-panel: #0d0d0d;
       border-radius: 0 0 180px 180px/ 0 0 10px 10px;
       box-shadow: inset 0 -2px 6px 0 darken($device-silver-dark, 50%);
       height: 10px;
-      left: -4px;
+      left: -74px;
       margin: 0 auto;
       top: 4px;
       width: 740px;
