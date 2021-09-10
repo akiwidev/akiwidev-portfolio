@@ -1,0 +1,12 @@
+.project-name {
+  font-size: 28px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0D5C63;
+
+  &:hover {
+    color: #F3A712;
+    text-decoration: none;
+  }
+}
