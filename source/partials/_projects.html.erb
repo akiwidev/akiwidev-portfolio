@@ -1,7 +1,7 @@
 <div class="container">
   <section id="projects">
     <h2 class="mb-4">My Projects</h2>
-    <div class="project-responsive">
+    <div class="project-responsive border-bottom">
       <div>
         <%= link_to "Safe Spaces 🏡", "https://www.safespacesjp.com/", target: '_blank', class: "project-name" %>
         <p><strong>Role:</strong> Project Manager</p>
@@ -21,18 +21,8 @@
       </div>
       <%= partial 'partials/carouselss' %>
     </div>
-    <div class="project-responsive">
-      <div class="device device-macbook device-spacegray">
-        <div class="device-frame">
-          <%= image_tag "fam-finder1.png", alt: "first screenshot", class: "d-block w-100 device-content" %>
-        </div>
-        <div class="device-stripe"></div>
-        <div class="device-header"></div>
-        <div class="device-sensors"></div>
-        <div class="device-btns"></div>
-        <div class="device-power"></div>
-      </div>
-      <div class="project-responsive">
+    <div class="project-responsive border-bottom">
+      <div class="mr-5">
         <%= link_to "Fam Finder 👫", "https://fam-finder.herokuapp.com/", target: '_blank', class: "project-name" %>
         <p><strong>Role:</strong> Lead Developer</p>
         <p class="pb-4">Need to hire a family member to take to your next event? We have you covered with Fam Finder!</p>
@@ -48,21 +38,35 @@
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
         </div>
       </div>
+      <div class="project-responsive">
+        <div class="device device-macbook device-spacegray">
+          <div class="device-frame">
+            <%= image_tag "fam-finder1.png", alt: "first screenshot", class: "d-block w-100 device-content" %>
+          </div>
+          <div class="device-stripe"></div>
+          <div class="device-header"></div>
+          <div class="device-sensors"></div>
+          <div class="device-btns"></div>
+          <div class="device-power"></div>
+        </div>
+      </div>
     </div>
-    <div class="d-inline-flex align-items-center">
+    <div class="project-responsive">
       <div class="mr-5">
         <%= link_to "Masquerade 💃", "https://masquerade-manager.herokuapp.com/", target: '_blank', class: "project-name" %>
         <p class="pb-4 text-justify">Manage those events, and beautiful Venetian masks with Masquerade.</p>
       </div>
-      <div class="device device-macbook device-spacegray">
-        <div class="device-frame">
-          <%= image_tag "masquerade1.png", alt: "first screenshot", class: "d-block w-100 device-content" %>
+      <div class="project-responsive">
+        <div class="device device-macbook device-spacegray">
+          <div class="device-frame">
+            <%= image_tag "masquerade1.png", alt: "first screenshot", class: "d-block w-100 device-content" %>
+          </div>
+          <div class="device-stripe"></div>
+          <div class="device-header"></div>
+          <div class="device-sensors"></div>
+          <div class="device-btns"></div>
+          <div class="device-power"></div>
         </div>
-        <div class="device-stripe"></div>
-        <div class="device-header"></div>
-        <div class="device-sensors"></div>
-        <div class="device-btns"></div>
-        <div class="device-power"></div>
       </div>
     </div>
   </section>

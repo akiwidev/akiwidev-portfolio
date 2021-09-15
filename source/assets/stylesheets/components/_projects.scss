@@ -11,21 +11,32 @@
   }
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (max-width: 600px) {
   .project-responsive {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    margin-bottom: 32px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .project-responsive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
   }
 }
 @media only screen and (min-width: 768px) {
   .project-responsive {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin-top: 32px;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -34,6 +45,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-left: 16px;
+    margin-top: 32px;
   }
 }
